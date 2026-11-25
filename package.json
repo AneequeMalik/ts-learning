@@ -1,19 +1,17 @@
 {
   "name": "ts-learning",
   "version": "1.0.0",
-  "description": "",
+  "description": "My TypeScript learning project",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "tsx watch src/index.ts",
     "start": "tsx src/index.ts",
-    "build": "tsc",
-    "typecheck": "tsc --noEmit"
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
   "devDependencies": {
     "@types/node": "^26.6.7",
     "tsx": "^4.23.15",
